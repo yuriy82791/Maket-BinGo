@@ -780,3 +780,46 @@ header{
 	color: #032F48;
 	text-align: center;
 }
+footer{
+	display: flex;
+	margin-top: 147px;
+	padding-bottom: 45px;
+	padding: 0 100px 45px;
+}
+.footer-logo{
+	width: 200px;
+	margin-right: 70px;
+}
+.footer-logo a img{
+	width: 65px;
+}
+.footer-logo-text{
+	font-size: 12px;
+	line-height: 20px;
+	color: #151F32;
+	margin-top: 15px;
+}
+.footer-menu-container{
+	display: flex;
+	width: 540px;
+  justify-content: space-between;
+}
+.footer-menu-link{
+	font-size: 12px;
+	line-height: 20px;
+	color: #000;
+	text-decoration: none;
+	display: block;
+}
+.footer-menu-item{
+	marg
+}
+.footer-menu-item > .footer-menu-link{
+	font-weight: 900;
+}
+.footer-sub-menu{
+	margin-top: 15px;
+}
+.footer-sub-menu .footer-menu-link{
+	margin-bottom: 3px;
+}
