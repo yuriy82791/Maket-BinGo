@@ -600,22 +600,25 @@ header{
 .next-block{
 	margin-left: 76px;
 }
-.next-wrapper .slider-wrapper{
+.next-slider-wrapper{
+	display: flex;
+}
+.next-wrapper .next-slider-wrapper{
 	flex-basis: 100%;
 	margin-top: -165px;
 }
-.slider-wrapper{
+.next-slider-wrapper{
 	margin-left: 30px;
 }
-.slider-wrapper .slider-controls{
+.next-slider-wrapper .slider-controls{
 	margin-top: -7px;
 	margin-right: 130px;
 }
-.slider-wrapper .slider-controls .controls{
+.next-slider-wrapper .slider-controls .controls{
 	margin-left: 0;
 	margin-top: 65px;
 }
-.slider-wrapper .slider-block{
+.next-slider-wrapper .slider-block{
 	display: flex;
 }
 .slider-block .slider-item:first-child{
